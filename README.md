@@ -52,14 +52,14 @@ To filter by country use the following = "python main.py -c Spain"
 
 
 
-##**Core technical concepts and inspiration**
+## **Core technical concepts and inspiration**
 
 The main reason why I created this is to execute a single line of code
 that allows you to : extract , wrangle, analyse and visualise data.
 Jupyter notebooks are quite good to check your code but quite infficiente when
 executing linked functions.
 
-##**Usage**
+## **Usage**
 
 - Parameters: countries (-c , --country)
 - Return values: it returns a table with the following columns: country , Job Title, Rural , Quantity & Percentage
@@ -70,7 +70,7 @@ You may want to analyse any other category
 
 
 
-##**Folder structure**
+## **Folder structure**
 ```
 └── project
     ├── __trash__
@@ -97,12 +97,9 @@ You may want to analyse any other category
         └── results
         └── .ipynb_checkpoints
         
-
 ```
 
-> Do not forget to include `__trash__` and `.env` in `.gitignore` 
-
-##**ToDo**
+## **ToDo**
 - Next steps: provide more insights from the data extracted
 
 

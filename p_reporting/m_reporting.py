@@ -2,21 +2,27 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 # reporting functions
+''' 
+
+def visualise(args.country):
+    analysis_ = m_analysis.analyse(wrangling_)
+    df_final = analysis_[ analysis_['Country'] == args.country]
+
+    return df_final
+    
+    '''
+
 
 '''
-def visualize_barplot(df,title):
-    fig, ax = plt.subplots(figsize=(15,8))
-    chart = sns.barplot(data=df, x='Make', y='Combined MPG')
-    plt.title(title + "\n", fontsize=16)
-    return chart
 
 def visualize_lineplot(df,title):
     fig, ax = plt.subplots(figsize=(15,8))
     chart = sns.lineplot(data=df, x='Make', y='Combined MPG')
     plt.title(title + "\n", fontsize=16)
     return chart
-'''
+
 
 def plotting_function(df,title,args):
     fig, ax = plt.subplots(figsize=(16,8))
@@ -30,3 +36,5 @@ def plotting_function(df,title,args):
 
 def save_viz(fig,title):
     fig.savefig('./data/results/' + title + '.png')
+
+'''

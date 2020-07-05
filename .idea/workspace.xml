@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e3f809a-d8d2-4fcd-a1fc-ad51c8ba7b5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/acquisition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/acquisition.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_acquisition/m_acquisition.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_acquisition/m_acquisition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_analysis/m_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_analysis/m_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_reporting/m_reporting.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_reporting/m_reporting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_wrangling/m_wrangling.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_wrangling/m_wrangling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

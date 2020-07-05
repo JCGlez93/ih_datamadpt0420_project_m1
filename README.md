@@ -1,11 +1,14 @@
-# Ironhack data project : MODULE 1
+# Ironhack module 1: Building a pipeline
 
-This pipeline extract data from different sources, manipulates it and save the csv locally.
+## **Overview:**
+This pipeline extract data from different sources, manipulates it and save the csv locally 
+so you can understand better the european data labour market.
+
 This instructions will allow you to make a copy of the project locally.
-Check deployment to understand how  to deploy the project.
+Check test execution to understand how  to deploy the project.
 
 
-![Image](https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/05/aiexcerpt.png)
+![Image](https://www.660citynews.com/wp-content/blogs.dir/sites/8/2018/04/10/pipeline.jpg)
 
 ---
 
@@ -49,25 +52,25 @@ To filter by country use the following = "python main.py -c Spain"
 
 
 
-#
-
-**Core technical concepts and inspiration**
+##**Core technical concepts and inspiration**
 
 The main reason why I created this is to execute a single line of code
 that allows you to : extract , wrangle, analyse and visualise data.
 Jupyter notebooks are quite good to check your code but quite infficiente when
 executing linked functions.
 
-**Usage**
+##**Usage**
 
 - Parameters: countries (-c , --country)
-- return values: it returns a table with the following columns: x,y z
-- known issues : you can execute this code in the local directory within the 
+- Return values: it returns a table with the following columns: country , Job Title, Rural , Quantity & Percentage
+- Known issues : you can execute this code in the local directory within the 
 correct environment
+- Limitation: it only extracts data from rural category. 
+You may want to analyse any other category
 
 
 
-**Folder structure**
+##**Folder structure**
 ```
 └── project
     ├── __trash__
@@ -99,12 +102,12 @@ correct environment
 
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
-**ToDo**
+##**ToDo**
 - Next steps: provide more insights from the data extracted
 
 
 
- **Contact info**
+## **Thanks and contact info**
 Getting help from Octavio and Javier Molins.
-Please do email mw for further questions : jcglez93@gmail.com
+Please do email me for further questions : jcglez93@gmail.com
 
